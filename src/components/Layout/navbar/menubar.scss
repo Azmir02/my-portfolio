@@ -1,0 +1,10 @@
+nav {
+  a {
+    color: $black-color;
+    font-size: 18px;
+    transition: all linear 0.3s;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
