@@ -3,7 +3,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
 import Link from "next/link";
 import Logo from "@/svg/Logo";
 import Menudata from "@/data/Menudata";
@@ -38,7 +37,7 @@ const Menubar = () => {
                 </Link>
               ))}
             </Nav>
-            <Button variant="outline-success">Search</Button>
+            <button className={DmSans.className}>Contact Now</button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
