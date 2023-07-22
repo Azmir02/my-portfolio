@@ -87,3 +87,16 @@
     }
   }
 }
+.copyright-part {
+  padding: 20px 0;
+  background-color: $main-color;
+  .copyRight_lists {
+    ul {
+      li {
+        a {
+          color: $white-color;
+        }
+      }
+    }
+  }
+}

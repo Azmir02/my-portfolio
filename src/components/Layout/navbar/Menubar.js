@@ -7,6 +7,7 @@ import Link from "next/link";
 import Logo from "@/svg/Logo";
 import Menudata from "@/data/Menudata";
 import { DM_Sans } from "next/font/google";
+import { motion } from "framer-motion";
 
 const DmSans = DM_Sans({
   subsets: ["latin"],
@@ -37,7 +38,16 @@ const Menubar = () => {
                 </Link>
               ))}
             </Nav>
-            <button className={DmSans.className}>Contact Now</button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              transition={{
+                type: "spring",
+                stiffness: 200,
+              }}
+              className={DmSans.className}
+            >
+              Contact Now
+            </motion.button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

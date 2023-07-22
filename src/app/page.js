@@ -1,10 +1,13 @@
+import About from "@/components/About";
+import Hero from "@/components/Hero";
 import Layout from "@/components/Layout/layout";
 
 export default function Home() {
   return (
     <>
       <Layout>
-        <h1>Hello world</h1>
+        <Hero />
+        <About />
       </Layout>
     </>
   );

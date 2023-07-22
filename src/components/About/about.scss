@@ -1,0 +1,35 @@
+.about {
+  padding-bottom: 100px;
+  .power {
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      padding-right: 80px;
+      line-height: 60px;
+      color: $black-color;
+      span {
+        color: $main-color;
+      }
+    }
+  }
+  .right-power-content {
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      color: $text-color;
+      line-height: 30px;
+      padding-left: 150px;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 125px;
+        transform: translateY(-50%);
+        width: 2px;
+        height: 65px;
+        background-color: $main-color;
+      }
+    }
+  }
+}
