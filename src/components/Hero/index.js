@@ -5,6 +5,8 @@ import Image from "next/image";
 import HeroImage from "../../image/hero.webp";
 import { motion } from "framer-motion";
 
+
+
 const Hero = () => {
   const Animation = {
     hidden: {

@@ -2,6 +2,7 @@
 import React from "react";
 import { DM_Sans } from "next/font/google";
 import { motion } from "framer-motion";
+import AboutBottom from "./AboutBottom";
 
 const DmSans = DM_Sans({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <AboutBottom />
       </div>
     </motion.div>
   );
